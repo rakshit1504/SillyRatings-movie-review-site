@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SillyRatings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/genre.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    
+</head>
+
+
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./icon.svg" alt="" height="15" /> SillyRatings
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#TVShow">Genre</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-link nav-link" data-bs-toggle="modal"
+                            data-bs-target="#menuModal">
+                            Menu
+                        </button>
+                    </li>
+                </ul>
+                <div class="search-container" >
+                    <div class="search-element" >
+                        <input type="text" class="form-control" placeholder="Search ..." id="movie-search-box"
+                            onkeyup="findMovies()" onclick="findMovies()" style="width:600px;">
+                        <div class="search-list" id="search-list"></div>
+                    </div>
+
+                    <a href="login.html" style="margin-left:80px; ">Login</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="menuModalLabel"><i>SillyRatings</i></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table cellspacing="5" cellpadding="5">
+                        <tr>
+                            <th>Movies</th>
+                            <th>TV Shows</th>
+                            <th>Awards and Events</th>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">
+                                <ul>
+                                    <li><a href="">Release Calender</a></li>
+                                    <li><a href="">Top Rated</a></li>
+                                    <li><a href="">Upcoming</a></li>
+                                    <li><a href="">Movie News</a></li>
+
+                                </ul>
+                            </td>
+
+                            <td>
+                                <ul>
+                                    <li><a href="">Release Calender</a></li>
+                                    <li><a href="">Top Rated Shows</a></li>
+                                    <li><a href="">Upcoming</a></li>
+                                    <li><a href="">TV News</a></li>
+                                </ul>
+                            </td>
+
+                            <td rowspan="2">
+                                <ul>
+                                    <li><a href="">Oscar Awards</a></li>
+                                    <li><a href="">Filmfare Awards</a></li>
+                                    <li><a href="">Golden Globe Awards</a></li>
+                                    <li><a href="">Emmy Awards</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Watch</h4>
+                                <ul>
+                                    <li><a href="">Release Calender</a></li>
+                                    <li><a href="tvshow.html">Top Rated Shows</a></li>
+                                    <li><a href="">Upcoming</a></li>
+                                    <li><a href="">TV News</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="result-container">
+            <div class="result-grid" id="result-grid">
+
+            </div>
+        </div>
+    </div>
+
+    <h1>Academy Awards from Scratch</h1>
+
+    
+
+    <div style="display: flex;" class="first">
+        <div id="carouselExampleIndicators" class="carousel slide" style="width: 68%;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-item">
+                <img src="./firstphotos/1stOscars_1929.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: yellow;"><b>How it Started!!</b></h5>
+                    <p>1st Academy Awards, 1929, LA</p>
+                </div>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./firstphotos/bwoscar.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Skipping some years!!</h5>
+                        <p>31st Academy Awards,1959,LA</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="./firstphotos/EllenOscarsTrailer.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>86th Academy Awards,2014</h5>
+                        <p>Allen Degeneres setting up the mood!!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./firstphotos/will-smith.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>94th Academy Awards, 2022</h5>
+                        <p>Will Smith slapping Kevin Hart!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./firstphotos/john-cena.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>96th Academy Awards,2024</h5>
+                        <p>John Cena doing it in his way.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./firstphotos/cilian.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>96th Academy Awards,2024</h5>
+                        <p>Cilian Murphy in the oscars for the first time.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./firstphotos/nolan.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>96th Academy Awards,2024</h5>
+                        <p>Christopher Nolan, surprisingly with his first Oscar.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./firstphotos/leo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>88th Academy Awards,2016</h5>
+                        <p>Just another Day for Leo.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div style="width: 32%; margin-right:15px; margin-left:10px; margin-top:25px; margin-bottom:25px">
+            
+            <style>
+                .article {
+                    width: 350px;
+                    height: 300px;
+                    border: 1px solid #ccc;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    overflow: hidden;
+                    box-sizing: border-box;
+                }
+        
+                .article img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    object-fit: cover;
+                }
+        
+                #newsContainerWrapper {
+                    height: 500px; /* Set the height of the container */
+                    overflow-y: auto; /* Enable vertical scrolling */
+                }
+        
+                #newsContainer {
+                    display: flex;
+                    flex-direction: column;
+                }
+            </style>
+        
+            <div id="newsContainerWrapper">
+                <div id="newsContainer"></div>
+            </div>
+        
+            <script>
+                var today = new Date();
+                var m = today.getMonth();
+                var d = today.getDate();
+                var y = today.getFullYear();
+                m++;
+                m = checkTime(m);
+                d--;
+                d = checkTime(d);
+                var f= y + "-" + m + "-" + d;
+        
+                const apiKey = "df1dcb436b034d1a9c2f9081fe7f7968";
+                const query = "Hollywood news";
+                const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=${f}&sortBy=publishedAt&apiKey=${apiKey}`;
+        
+                
+                async function fetchFarmingAndAgricultureNews() {
+                    try {
+                        const response = await fetch(apiUrl);
+                        const data = await response.json();
+                        
+                        return data.articles.slice(0, 10); // Limit to 10 articles
+                    } catch (error) {
+                        console.error(
+                            "Error fetching movie news data:",
+                            error.message
+                        );
+                        return null;
+                    }
+                }
+        
+                function checkTime(i) 
+              {
+                if (i<10) {i = "0" + i};
+                return i;
+              }
+        
+                
+                function displayNews(newsData) {
+                    const newsContainer = document.getElementById('newsContainer');
+                    if (newsData && newsData.length > 0) {
+                        newsData.forEach(article => {
+        
+                            console.log("Hollywood news data:", newsData);
+        
+                            const articleElement = document.createElement('div');
+                            articleElement.classList.add('article');
+        
+                            const titleElement = document.createElement('h3');
+                            titleElement.textContent = article.title;
+        
+                            const descriptionElement = document.createElement('p');
+                            descriptionElement.textContent = article.description;
+        
+                            const urlElement = document.createElement('a');
+                            urlElement.href = article.url;
+                            urlElement.textContent = "Read more";
+        
+                            const urlToImageElement = document.createElement('img');
+                            urlToImageElement.src = article.urlToImage;
+                            urlToImageElement.alt = article.title;
+        
+                            articleElement.appendChild(titleElement);
+                            articleElement.appendChild(descriptionElement);
+                            articleElement.appendChild(urlElement);
+                            articleElement.appendChild(urlToImageElement);
+        
+                            newsContainer.appendChild(articleElement);
+                        });
+                    } else {
+                        newsContainer.textContent = "No news available.";
+                    }
+                }
+        
+                
+                fetchFarmingAndAgricultureNews()
+                    .then(displayNews)
+                    .catch(error => {
+                        console.error("Error displaying news:", error.message);
+                    });
+            </script>
+            
+            
+        </div>
+    </div>
+    <h1>Best Moments from Movies and TV shows</h1><br>
+    <div class="video-carousel-container">
+        <div class="video-container">
+            <video src="./videos/interstellar.mp4" controls></video>
+            <video  src="./videos/bob.mp4" controls></video>
+            <video src="./videos/matrix.mp4" controls></video>
+            <video src="./videos/howard.mp4" controls></video>
+            <video src="./videos/titanic.mp4" controls></video>
+            <video src="./videos/cenavideo.mp4" controls></video>
+            
+            <!-- Add more videos as needed -->
+        </div>
+        <div class="prev">&#10094;</div>
+        <div class="next">&#10095;</div>
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="genre">    
+            <h2>Genre</h2>
+            <select name="genre" id="genre" onchange="handleGenreChange(this.value)">
+                <option value="">--Select genre--</option>
+                <option value="action" >Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy/Thriller</option>
+                <option value="horror">Horror</option>  
+                <option value="romance">Romance</option>
+                <option value="sci-fi">Sci-Fi</option>      
+            </select>
+        <div id="result"></div>    
+    </div>
+
+    <div class="TVShow" id="TVShow">
+        <h2 ><a style="color: white;" href="tvshow.html">TV Shows</a></h2>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+            <span class="text-body-secondary">&copySillyRatings</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
+    <script src="./JS/slideshow.js"></script>
+    <script src="./JS/genre.js"></script>
+    
+</body>
+
+</html>

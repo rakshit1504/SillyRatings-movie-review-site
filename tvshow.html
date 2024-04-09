@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TVShow</title>
+    <style>
+        
+
+        * {
+            background-color: #F39F5A;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1;
+            pointer-events: auto;
+        }
+
+        .question 
+        {
+            font-size: 36px;
+            color: #662540;
+            margin-bottom: 50px;
+        }
+
+        .button 
+        {
+            padding: 15px 30px;
+            background-color: #662540;
+            color: #F39F5A;
+            border: none;
+            border-radius: 50px;
+            font-size: 60px;
+            cursor: pointer !important;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add a transition effect for transform property */
+            margin: 15px;
+        }
+
+        .button:hover 
+        {
+            background-color: #E8BCB9;
+            color: #662540;
+            transform: translateY(-10px); /* Move the button up by 10px on hover */
+        }
+
+        .buttons {
+            display: flex !important;
+            gap: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap">
+</head>
+
+<body>
+    
+
+    <div id="particles-js"></div>
+
+    <!-- Overlay for age question -->
+    <div class="overlay">
+        <h2 class="question">What kind of TV shows are you looking for?</h2>
+        <div class="buttons">
+            <a href="drama.html">
+                <button class="button" id="age-0-24">Drama</button>
+            </a>
+            <a href="sitcom.html">
+                <button class="button" id="age-24-plus">Sitcom</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+</body>
+
+</html>

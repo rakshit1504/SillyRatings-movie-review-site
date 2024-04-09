@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Conduction Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #240A34;
+        }
+
+        header {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-family: "Dancing Script", cursive;
+        }
+
+        main {
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 20px); /* Subtracting the margin you have */
+        }
+
+        .content{
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin:auto;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+            color: white;
+            width: 65%;
+            
+
+        }
+
+        form {
+            padding: 20px;
+            
+
+            
+            
+        }
+
+        input,
+        select {
+            background: rgba(255, 255, 255, 0.3);
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 15px;
+            color: white;
+        }
+
+        button {
+            background-color: maroon;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .question {
+            margin-bottom: 10px;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        .result-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: maroon;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Login Page</h1>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1 style="margin-left:20px; margin-top:55px; color:maroon; text-shadow:0px 1px 2px rgba(0,0,0,1);">LOG IN</h1><br>
+            <form id="quizCreationForm" ><br>
+                <label for="quizTitle">USERNAME</label>
+                <input type="text" id="quizTitle" name="quizTitle" required>
+                <label for="quizTitle">E-mail</label>
+                <input type="email" id="quizTitle" name="email" required>
+                <label for="quizTitle">PASSWORD</label>
+                <input type="password" id="quizTitle" name="pass" required><br>
+                <button type="submit">Login</button>
+            </form>
+
+            <div class="quiz-container" id="quizContainer" style="display: none;">
+                <div id="questionDisplay" class="question"></div>
+                <div id="optionsDisplay" class="options"></div>
+                <button onclick="submitAnswer()">Submit Answer</button>
+            </div>
+
+            <div class="result-container" id="resultContainer" style="display: none;">
+                <h2>Your Quiz Result</h2>
+                <p id="scoreDisplay"></p>
+                <p id="correctAnswersDisplay"></p>
+            </div>
+        </div>
+    </main>
+
+
+        
+        
+    <footer>
+        &copy; Login for SillyRatings
+    </footer>
+
+</body>
+
+</html>
