@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+/* Custom styles for modal */
+.modal-content {
+    background-color: black;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: 1px solid yellow;
+}
+
+.modal-body {
+    border-bottom: 1px solid yellow;
+}
+
+.modal-header .btn-close {
+    background-color: yellow;
+}
+
+.modal-body table {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #FDB750;
+}
+
+.navbar-toggler {
+    background-color: #FDB750;
+}
+
+.navbar-collapse {
+    background-color: #FDB750;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 5px;
+    /* Adjust as needed */
+}
+/* Add your custom styles here */
+#carouselExampleIndicators {
+    width: 70%;
+    /* Adjust the width as needed */
+    margin: auto;
+    margin-top: 50px;
+    /* Adjust the margin-top as needed for centering */
+    margin: 25px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 525px;
+    /* Adjust this value as needed */
+    object-fit: contain;
+}
+.carousel-indicators {
+    margin-bottom: 10px;
+    position: absolute;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+table td {
+    vertical-align: top;
+}
+
+input::placeholder {
+    font-size: 15px;
+    /* Adjust as needed */
+    text-align: left;
+
+}
+.search-element {
+    margin-right: 10px;
+}
+
+/* To change the color of the search button */
+button[type="submit"] {
+    background-color: #f8f9fa;
+    /* Change to the color you want */
+    border-color: #f8f9fa;
+    /* Change to the color you want */
+    height: 30px;
+    text-align: center;
+}
+
+.search-element::placeholder {
+    text-align: left;
+}
+
+.search-bar {
+    font-size: 14px;
+    /* Adjust this value to your preference */
+}
+/* Assuming your login button has a class of .login-button */
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-body-tertiary {
+    background-color: #FDB750 !important;
+}
+table a {
+    color: white;
+}
+/* When touched, should also remain white */
+table a:active,
+table a:focus,
+table a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.video-carousel-container {
+    position: relative;
+    /* Position relative for absolute positioning of arrows */
+    width: 96%;
+    overflow: hidden;
+    /* Hide overflowing content */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* Center the container */
+}
+
+.video-container {
+    display: flex;
+    width: 100vw;
+    /* Full width of the viewport */
+    height: 300px;
+    /* Height of the video container, adjust as needed */
+    transition: transform 0.3s ease;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 100%;
+    /* Ensure videos take up full width */
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.h1 {
+    margin-left: 25px;
+}
+footer{
+    margin-right:0px;
+    width:100%;
+}
+
+.genre{
+    margin:25px;
+}
+
+.TVShow {
+    margin-left: 25px;
+}

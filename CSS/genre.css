@@ -1,0 +1,23 @@
+select {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tile {
+  width: calc(20% - 20px); /* Adjust the width of each tile to fit 5 tiles in a row */
+  max-width: 200px; /* Set maximum width to prevent tiles from stretching too much */
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid black;
+  margin: 10px;
+  box-sizing: border-box;
+}
