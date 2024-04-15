@@ -15,7 +15,7 @@ SillyRatings is a web project that aims to create a dynamic and user-friendly mo
 ## Installation
 
 1. Clone the repository:
-$git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
+`$git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git`
 
 2. Open the project folder in your preferred code editor.
 
