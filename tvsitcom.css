@@ -48,17 +48,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: black;
     /* Set background color */
 }
 
 header {
-    background-color: #ff6f61;
+    background-color: #ffa500;
+    
     /* Set header background color */
-    color: #fff;
+    color: #1e1e1e;
     padding: 20px 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.logo {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+h1 {
+    margin: 0 auto; /* Center h1 horizontally */
+    max-width: calc(100% - 40px); /* Limit width to prevent overflow */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
 
 main {
     padding: 20px;
@@ -66,7 +80,8 @@ main {
 
 .sitcom {
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #1e1e1e;
+    color: white;
     /* Set sitcom tile background color */
     padding: 20px;
     border-radius: 5px;
