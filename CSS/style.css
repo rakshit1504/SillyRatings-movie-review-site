@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #1e1e1e;
     color: antiquewhite;
 
 }
@@ -37,15 +37,15 @@ body {
 }
 
 .navbar {
-    background-color: #FDB750;
+    background-color: #e2b616;
 }
 
 .navbar-toggler {
-    background-color: #FDB750;
+    background-color: #e2b616;
 }
 
 .navbar-collapse {
-    background-color: #FDB750;
+    background-color: #e2b616;
 }
 .navbar-brand {
     display: flex;
@@ -108,6 +108,7 @@ button[type="submit"] {
 
 .search-bar {
     font-size: 14px;
+    
     /* Adjust this value to your preference */
 }
 /* Assuming your login button has a class of .login-button */
@@ -117,7 +118,7 @@ button[type="submit"] {
     justify-content: center;
 }
 .bg-body-tertiary {
-    background-color: #FDB750 !important;
+    background-color: #e2b616 !important;
 }
 table a {
     color: white;
@@ -187,4 +188,9 @@ footer{
 
 .TVShow {
     margin-left: 25px;
+}
+
+h1,h2,h3,h4{
+    font-family: "Platypi", serif;
+    margin-left:20px;
 }

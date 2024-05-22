@@ -1,3 +1,7 @@
+:root{
+    background-color: #1e1e1e;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -38,12 +42,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Set background color */
+    background-color: black; /* Set background color */
 }
 
 header {
-    background-color: #ff6f61; /* Set header background color */
-    color: #fff;
+   
     padding: 20px 0;
     text-align: center;
 }
@@ -54,7 +57,8 @@ main {
 
 .drama {
     margin-bottom: 20px;
-    background-color: #fff; /* Set drama tile background color */
+    background-color: #1e1e1e; /* Set drama tile background color */
+    color: white;
     padding: 20px;
     border-radius: 5px;
     width: calc(25% - 15px); /* Make the tiles take up 25% of the width of the container, minus the margin */
@@ -78,4 +82,24 @@ main {
 
 .drama p {
     margin-bottom: 0;
+}
+
+header {
+    background-color: #ffa500;
+    /* Set header background color */
+    color: #1e1e1e;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+h1 {
+    margin: 0 auto; /* Center h1 horizontally */
+    max-width: calc(100% - 40px); /* Limit width to prevent overflow */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
 }
