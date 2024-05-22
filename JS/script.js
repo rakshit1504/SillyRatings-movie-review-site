@@ -78,8 +78,10 @@ function displayMovieDetails(details){
         <ul class = "movie-misc-info">
             <li class = "year">Year: ${details.Year}</li>
             <li class = "rated">Ratings: ${details.Rated}</li>
-            <li class = "released">Released: ${details.Released}</li>
+            <li class = "released">Released: ${details.Released}</li>  
         </ul>
+        <p class = "runtime">IMDb Rating: ${details.Ratings[0].Value}</p>
+        <p class = "runtime">Rotten Tomatoes: ${details.Ratings[1].Value}</p>
         <p class = "genre"><b>Genre:</b> ${details.Genre}</p>
         <p class = "writer"><b>Writer:</b> ${details.Writer}</p>
         <p class = "actors"><b>Actors: </b>${details.Actors}</p>
