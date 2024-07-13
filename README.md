@@ -28,7 +28,63 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 - Alternatively, you can host the project on a web server to make it accessible online.
 
 ## Screenshots
-![Landing Page](screenshots/landing_page.png)
+## Landing Page
+![This is our landing page (Home Page for the website)](ss/landingpage.jpg)
+*This is our landing page (Home Page for the website)*
+
+## Movie Search
+![This is when the user searches for any movie](ss/search.jpg)
+*This is when the user searches for any movie*
+
+![This is the search result](ss/searchresult.jpg)
+*This is the search result*
+
+![On the left we get to see the photos from different Oscars and on the right we see the latest news on movies across the world](ss/main.jpg)
+*On the left we get to see the photos from different Oscars and on the right we see the latest news on movies across the world*
+
+![This is further down the home page, clips from movies and tv shows](ss/clips.jpg)
+*This is further down the home page, clips from movies and tv shows*
+
+## Genre Search
+![This is where you can search for your favourite genre](ss/searchgenre.jpg)
+*This is where you can search for your favourite genre*
+
+![When you click your genre](ss/favgenre.jpg)
+*When you click your genre*
+
+## Movie Details
+![When you click any movie here (The size of the page is reduced for better showing)](ss/clickmovie.jpg)
+*When you click any movie here (The size of the page is reduced for better showing)*
+
+## TV Shows
+![When you click on TV Shows](ss/tvshows.jpg)
+*When you click on TV Shows*
+
+![When you click on Drama](ss/drama.jpg)
+*When you click on Drama*
+
+![When you click on Sitcom](ss/sitcom.jpg)
+*When you click on Sitcom*
+
+![When you click any of the TV Show](ss/clickshow.jpg)
+*When you click any of the TV Show*
+
+## Navigation and Contact
+![Menu from the Navbar](ss/menu.jpg)
+*Menu from the Navbar*
+
+![Contact Us page](ss/contactus.jpg)
+*Contact Us page*
+
+![Contact Us page (alternative view)](ss/contactus2.jpg)
+*Contact Us page (alternative view)*
+
+## User Authentication
+![Sign Up Page](ss/signup.jpg)
+*Sign Up Page*
+
+![Sign In Page](ss/signin.jpg)
+*Sign In Page*
 
 
 ## Links
