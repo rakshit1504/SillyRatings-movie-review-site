@@ -94,5 +94,5 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 
 ## Contributors
 
-- Sarthak Ray 
-- Rakshit Bansal 
+-// Sarthak Ray 
+-// Rakshit Bansal 
