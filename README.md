@@ -53,37 +53,37 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 *When you click your genre*
 
 ## Movie Details
-![When you click any movie here (The size of the page is reduced for better showing)](ss/clickmovie.jpg)
+![When you click any movie here (The size of the page is reduced for better showing)](ss/clickmovie.jpg)  
 *When you click any movie here (The size of the page is reduced for better showing)*
 
 ## TV Shows
-![When you click on TV Shows](ss/tvshows.jpg)
+![When you click on TV Shows](ss/tvshows.jpg)  
 *When you click on TV Shows*
 
-![When you click on Drama](ss/drama.jpg)
+![When you click on Drama](ss/drama.jpg)  
 *When you click on Drama*
 
-![When you click on Sitcom](ss/sitcom.jpg)
+![When you click on Sitcom](ss/sitcom.jpg)  
 *When you click on Sitcom*
 
-![When you click any of the TV Show](ss/clickshow.jpg)
+![When you click any of the TV Show](ss/clickshow.jpg)    
 *When you click any of the TV Show*
 
 ## Navigation and Contact
-![Menu from the Navbar](ss/menu.jpg)
+![Menu from the Navbar](ss/menu.jpg)  
 *Menu from the Navbar*
 
-![Contact Us page](ss/contactus.jpg)
+![Contact Us page](ss/contactus.jpg)  
 *Contact Us page*
 
-![Contact Us page (alternative view)](ss/contactus2.jpg)
+![Contact Us page (alternative view)](ss/contactus2.jpg)  
 *Contact Us page (alternative view)*
 
 ## User Authentication
-![Sign Up Page](ss/signup.jpg)
+![Sign Up Page](ss/signup.jpg)  
 *Sign Up Page*
 
-![Sign In Page](ss/signin.jpg)
+![Sign In Page](ss/signin.jpg)   
 *Sign In Page*
 
 
