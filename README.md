@@ -92,7 +92,7 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 - [Google Drive Link](https://drive.google.com/drive/folders/1exx0U8IRdV_CBCrc_VPXLOAUcNmi1P0p?usp=sharing)
 
 
-## Contributors  
+## Contributors
 
 - Sarthak Ray 
 - Rakshit Bansal 
