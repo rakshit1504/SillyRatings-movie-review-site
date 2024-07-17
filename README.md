@@ -83,7 +83,7 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 ![Sign Up Page](ss/signup.jpg)  
 *Sign Up Page*
 
-![Sign In Page](ss/signin.jpg)   
+![](ss/signin.jpg)   
 *Sign In Page*
 
 
