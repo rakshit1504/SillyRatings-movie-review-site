@@ -29,7 +29,7 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
 
 ## Links
 
-- [Google Drive Link](https://drive.google.com/drive/folders/1exx0U8IRdV_CBCrc_VPXLOAUcNmi1P0p?usp=sharing)
+- [Google Drive Link](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)
 
 
 ## Contributors
