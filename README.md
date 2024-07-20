@@ -33,7 +33,6 @@ $git clone https://github.com/SarthakRay26/Movie_Review-oMDb-.git
   Open this file for screenshots and details about the project
 
 
-## Contributors
- 
+## Contributors  
 - Rakshit Bansal
 - Sarthak Ray
