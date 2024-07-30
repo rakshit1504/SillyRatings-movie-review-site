@@ -34,5 +34,5 @@ $git clone https://github.com/rakshit1504/SillyRatings-movie-review-site.git
 
 
 ## Contributors
-- Rakshit Bansal
+- Rakshit
 - Sarthak Ray
