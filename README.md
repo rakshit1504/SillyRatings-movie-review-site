@@ -1,5 +1,4 @@
-# SillyRatings
-
+# SillyRatings   
 SillyRatings is a web project that aims to create a dynamic and user-friendly movie review website where users can explore, review, and discuss their favorite movies. The website offers a vast database of movies spanning various genres, ratings, and release years.
 
 ## Features
