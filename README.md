@@ -30,6 +30,8 @@ $git clone https://github.com/rakshit1504/SillyRatings-movie-review-site.git
 
 - [Google Drive Link](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)   
   Open this file for screenshots and details about the project
+- https://rakshit1504.github.io/SillyRatings-movie-review-site/
+  online access link
 
 
 ## Contributors
