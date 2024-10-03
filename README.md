@@ -12,9 +12,9 @@ SillyRatings is a web project that aims to create a dynamic and user-friendly mo
 
 
 
-###I took charge of designing and implementing the frontend using HTML, CSS, and JavaScript to deliver a clean and smooth user experience. I also integrated JavaScript features for a more interactive interface.
+### I took charge of designing and implementing the frontend using HTML, CSS, and JavaScript to deliver a clean and smooth user experience. I also integrated JavaScript features for a more interactive interface.
 
-##What’s Next? 
+## What’s Next? 
 While I’m proud of what we’ve accomplished so far, all the upcoming improvements will be driven by me. Based on my daily learning journey, I’m excited to implement new skills and knowledge as I dive deeper into web development.
 
 Here are some planned enhancements:
