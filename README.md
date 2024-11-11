@@ -53,7 +53,8 @@ Check out **SillyRatings** in action:
 
 ---
 
-## 👥 Contributors  
+## 👥 Contributors
+ 
 - **Rakshit Bansal** – Frontend Development & JavaScript Features  
 - **Sarthak Ray** – Collaboration & Support  
 
