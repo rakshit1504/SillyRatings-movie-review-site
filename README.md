@@ -1,4 +1,4 @@
-# 🎬 SillyRatings 
+# 🎬 SillyRatings  
 **SillyRatings** is a dynamic movie review platform designed to let users explore, review, and discuss their favorite movies. Whether you're a casual viewer or a hardcore movie buff, SillyRatings makes it easy to search through an extensive movie database, read reviews, stay updated with the latest Hollywood news, and dive into top TV shows!
 
 ## 🚀 Features  
