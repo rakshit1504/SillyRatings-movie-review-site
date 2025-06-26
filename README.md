@@ -54,6 +54,6 @@ Follow these steps to run **SillyRatings** locally:
 
 ## 👥 Contributors 
 - **Rakshit Bansal** – Frontend Development & JavaScript Features  
-- **Sarthak Ray** – Collaboration & Support  
+- **Sarthak Ray** – API integration, Designing and development
 
 ---
