@@ -16,8 +16,8 @@ I spearheaded the design and implementation of the **frontend**, ensuring a slee
 
 ## 🌐 Live Demo  
 Check out **SillyRatings** in action:  
-- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages)  
-- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)
+- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)   
+- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages) (newsAPI may not work in Pages. kindly clone the repository and run for better results)
 
 
 ## 🔧 What’s Next?  
