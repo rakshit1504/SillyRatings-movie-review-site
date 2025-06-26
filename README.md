@@ -14,6 +14,12 @@
 ## ✨ My Contribution  
 I spearheaded the design and implementation of the **frontend**, ensuring a sleek and responsive user interface. Additionally, I integrated several **JavaScript** features to enhance interactivity and provide users with a seamless browsing experience.
 
+## 🌐 Live Demo  
+Check out **SillyRatings** in action:  
+- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages)  
+- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)
+
+
 ## 🔧 What’s Next?  
 While I'm proud of our current progress, the journey is far from over. The exciting part? All upcoming enhancements will be spearheaded by me! As I continue to hone my skills in web development, you can expect some awesome improvements soon:
 
@@ -43,13 +49,6 @@ Follow these steps to run **SillyRatings** locally:
 4. **Run the project**:  
    - If you have a local server environment, you can run the project locally.  
    - Alternatively, you can host the project on a web server to make it accessible online.
-
----
-
-## 🌐 Live Demo  
-Check out **SillyRatings** in action:  
-- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages)  
-- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)
 
 ---
 
