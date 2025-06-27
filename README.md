@@ -18,6 +18,7 @@ Check out **SillyRatings** in action:
 - **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)    
 - **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages) (newsAPI may not work in Pages. kindly clone the repository and run for better results)  
 
+---
 
 ## 🔧 What’s Next?  
 While I'm proud of our current progress, the journey is far from over. The exciting part? All upcoming enhancements will be spearheaded by me! As I continue to hone my skills in web development, you can expect some awesome improvements soon:
@@ -28,7 +29,6 @@ While I'm proud of our current progress, the journey is far from over. The excit
 
 Each update will reflect my personal growth and the skills I've acquired on this exciting learning journey. I’m thrilled to continue working on this project, **one step at a time**, and can’t wait to share more updates soon. **Stay tuned!**
 
----
 
 ## 🛠️ Installation  
 
@@ -52,7 +52,7 @@ Follow these steps to run **SillyRatings** locally:
 ---
 
 ## 👥 Contributors 
-- **Rakshit Bansal** – Frontend Development & JavaScript Features  
+- **Rakshit Bansal** – Frontend Development & JavaScript Features   
 - **Sarthak Ray** – API integration, Designing and development
 
----
+
