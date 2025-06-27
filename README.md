@@ -15,14 +15,14 @@ I spearheaded the design and implementation of the **frontend**, ensuring a slee
 
 ## 🌐 Live Demo  
 Check out **SillyRatings** in action:  
-- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)   
-- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages) (newsAPI may not work in Pages. kindly clone the repository and run for better results)
+- **[Google Drive](https://docs.google.com/document/d/16zg02brFnIXujYh6WWJZden7n59JFFm8/edit?usp=sharing&ouid=113601754252652920446&rtpof=true&sd=true)** (Screenshots and detailed project information)    
+- **[Live Project](https://rakshit1504.github.io/SillyRatings-movie-review-site/)** (via GitHub Pages) (newsAPI may not work in Pages. kindly clone the repository and run for better results)  
 
 
 ## 🔧 What’s Next?  
 While I'm proud of our current progress, the journey is far from over. The exciting part? All upcoming enhancements will be spearheaded by me! As I continue to hone my skills in web development, you can expect some awesome improvements soon:
 
-- 🌟 **React-Based TV Show Pages**: TV show pages for sitcoms and dramas will be revamped using **React** for greater flexibility and component reuse, especially by leveraging **props**.  
+- 🌟 **React-Based TV Show Pages**: TV show pages for sitcoms and dramas will be revamped using **React** for greater flexibility and component reuse, especially by leveraging **props**.   
 - 🔗 **Backend Integration**: I’ll be linking the **Sign-In** and **Contact Us** pages to a fully functional backend to improve user authentication and feedback mechanisms.  
 - 🎨 **UI/UX Refinements**: Expect a more polished and intuitive interface as I enhance the design and functionality of the website.  
 
